@@ -1,0 +1,14 @@
+This script reconstructs sample reflectance images at varying z positions from signals collected through MMF.
+For more details, please see:
+Lee et al., "Confocal 3D reflectance imaging through multimode fiber without wavefront shaping," Optica 9(1), 2022.
+(https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-1-112&id=468487)
+
+
+cells_on_coverslip_air.mat contains the following variables:
+
+1. MMF_signals_cell: signals of reflectance light from the sample collected through a MMF
+2. bf_sample_s*_cell: brightfield image of the sample on the front or back surface
+3. H (or V): MMF raw data and configurations of H (or V) polarization
+4. N: each MMF input realization is a focal spot on a N x N foci array
+5. pre_mode_ind: the number of MMF input realization during imaging
+6. mode_ind: the number of actually counted MMF input realization for image rendering
