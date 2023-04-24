@@ -1,0 +1,14 @@
+This script reconstructs images of a resolution chart positioned at varying z positions, with signals collected through MMF.
+For more details, please see:
+Lee et al., "Confocal 3D reflectance imaging through multimode fiber without wavefront shaping," Optica 9(1), 2022.
+(https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-1-112&id=468487)
+
+
+resolution_chart.mat contains the following variables:
+
+1. MMF_signals_chart_*: MMF signals of reflectance light from the chart at a certain distaince away from the MMF
+2. H (or V): MMF raw data and configurations of H (or V) polarization
+3. N: each MMF input realization is a focal spot on a N x N foci array
+4. pre_mode_ind: the number of MMF input realization during imaging
+5. mode_ind: the number of actually counted MMF input realization for image rendering
+
