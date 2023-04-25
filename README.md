@@ -1,4 +1,4 @@
-# Confocal-imaging-through-MMF
+# Image-reconstruction-for-confocal-imaging-through-MMF-without-wavefront-shaping
 
 Demo code and data for two examples of 3D multi-contrast image reconstruction from signals collected through an optical MMF.
 
